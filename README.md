@@ -59,16 +59,13 @@ Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur a
 
 ### 🛠️ Travail Réalisé
 **Focus Principal : Développement du Portail Public**
-*   **Implémentation de la Page de Recherche :** Interface dynamique avec filtrage.
 *   **Réalisation de la Page "Property Details" :** Développement complet de la fiche produit intégrant :
     *   Galerie d'images immersive.
     *   Grille d'informations techniques (info-grid).
     *   Composants de contact (contact-card) et Breadcrumb.
 
 #### 🧪 Lab
-*   **Laravel 12 (PHP 8.3+) :** Framework backend pour sa solidité et sa gestion des Policies.
-*   **Vite & Tailwind CSS :** Pour des styles ultra-rapides et un design utility-first.
-*   **Preline UI :** Composants interactifs (modals, dropdowns) pour une UI cohérente.
+*   **Laravel Deployment** Framework backend pour sa solidité et sa gestion des Policies.
 
 #### 📐 Maquettes et Tests Utilisateurs
 *   **Maquette clé :** Page `Property_details` avec UX moderne.
@@ -98,18 +95,6 @@ Le flux utilisateur suit le diagramme de cas d'utilisation conçu pour ce sprint
 *   **Service de Détails :** Récupération dynamique des données (Prix, Surface, Équipements).
 *   **Navigation Intuitive :** Fil d'ariane pour un retour fluide à la liste des biens.
 
----
-
-### 💻 Réalisation Technique Approfondie
-
-#### 🧱 Back-End et Architecture
-*   **Architecture N-Tiers :** Controllers (Requêtes), Services (Logique), Models (Données).
-*   **Sécurité :** Laravel Policies (RBAC) pour protéger les soumissions d'annonces.
-*   **Stockage :** Gestion des photos via le Filesystem Laravel.
-
-#### 🎨 Front-End
-*   **Blade Templates :** Architecture modulaire avec composants réutilisables.
-*   **Alpine.js :** Interactivité légère pour les galeries et filtres sans la lourdeur d'une SPA.
 
 ---
 <div align="center">
