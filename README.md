@@ -69,7 +69,7 @@ Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur a
 
 #### 📐 Maquettes et Tests Utilisateurs
 *   **Maquette clé :** Page `Property_details` avec UX moderne.
-*   **Outils :** Figma / Tailwind CSS, Lucide Icons.
+*   **Outils :** Tailwind CSS
 
 <p align="center">
   <img src="./assets/maquette_property_details.png" alt="Maquette RealEstate Pro" width="1000">
