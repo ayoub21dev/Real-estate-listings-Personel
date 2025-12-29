@@ -11,7 +11,7 @@ L'objectif de cette phase est de concevoir l'interface utilisateur et de défini
 
 *   **Cible :** Créer la maquette de la page de détails des propriétés.
 *   **Workflow :** Git / GitHub Flow.
-*   **Labs :** Laravel Deployment (Configuration & Mise en production).
+*   **Labs :** Laravel Deployment (Configuration & Mise en production)
 
 ---
 
