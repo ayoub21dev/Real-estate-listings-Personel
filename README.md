@@ -1,56 +1,117 @@
-# 🏢 RealEstate Pro - Site d’Annonces Immobilières
-**Phase 1 : Maquettage & Conception**
+# 🏠 RealEstate Pro - Système d'Annonces Immobilières
+## 🚀 Sprint 1 : Visiteur & Découverte
 
-**Présenté par :** Ayoub Jalyta  
-**Encadré par :** Mr. ESSARRAJ FOUAD
-
----
-
-## 📌 Travail à Faire
-L'objectif de cette phase est de concevoir l'interface utilisateur et de définir les interactions du système pour un site d'annonces immobilières moderne.
-
-*   **Cible :** Créer la maquette de la page de détails des propriétés.
-*   **Workflow :** Git / GitHub Flow.
-*   **Labs :** Laravel Deployment (Configuration & Mise en production)
+<div align="center">
+  <p><strong>Réalisé par :</strong> Ayoub JALYTA</p>
+  <p><strong>Encadré par :</strong> M. ESSARRAJ Fouad</p>
+</div>
 
 ---
 
-## 📦 Livrables Attendus
-À la fin de cette étape, les éléments suivants sont opérationnels :
+### 📖 Introduction et Contexte Général
+Le projet **RealEstate Pro** est une plateforme web moderne conçue pour la gestion professionnelle d'annonces immobilières. Elle permet de centraliser les offres, d'assurer la qualité des données et de faciliter la mise en relation entre agents et acquéreurs.
 
-*   **Conception UI :** Maquette haute fidélité de la page `Property_details`.
-*   **Analyse :** Diagramme de cas d'utilisation (Use Case) complété.
-*   **Documentation :** Guide de déploiement Laravel finalisé.
+**La problématique :**
+La gestion manuelle ou via des réseaux sociaux manque de rigueur (validation des données), de recherche avancée (filtres précis) et de suivi efficace des demandes de contact.
 
----
-
-## 👥 Perspective Utilisateur
-### Cas d'Utilisation
-Le système permet aux futurs acquéreurs de :
-*   Consulter les caractéristiques détaillées d'un bien (Prix, chambres, surface).
-*   Visualiser l'emplacement et les photos haute résolution.
-*   Contacter directement l'agent via WhatsApp ou appel téléphonique.
-
-![Diagramme de Cas d'Utilisation](./assets/use_case_diagram.png)
+**La solution :**
+Un système robuste avec un workflow d'approbation administrateur, une recherche multicritères intuitive et une interface responsive pour une expérience utilisateur premium.
 
 ---
 
-## 🎨 Maquette (UI Design)
-Voici l'aperçu de l'interface utilisateur conçue pour la page de détails :
-
-![Maquette Property Details](./assets/maquette_property_details.png)
-
----
-
-## 🔹 Fonctionnalités Clés
-La page de détails repose sur quatre piliers visuels et techniques :
-
-1.  **Galerie Immersive :** Système de visualisation d'images dynamique.
-2.  **Conversion Rapide :** Boutons d'action directs (Call/WhatsApp).
-3.  **Détails Structurés :** Organisation claire des données techniques du bien.
-4.  **Navigation Intuitive :** Fil d'ariane (Breadcrumb) pour un retour facile aux recherches.
+### 🔍 Analyse des Besoins
+1.  **Gestion de Qualité :** Toutes les annonces doivent être approuvées par un admin avant publication.
+2.  **Accessibilité Publique :** Recherche avancée (Prix, Ville, Type de bien, Chambres).
+3.  **Conversion client :** Formulaires de contact directs liés aux propriétés spécifiques.
+4.  **Rôles & Sécurité :** Distinction claire entre Admin (supervision), Assistant (création) et Visiteur (consultation).
 
 ---
 
-## 🚀 Merci pour votre attention !
-**Questions ?**
+### ⚙️ Méthodologies Employées
+
+#### 🏃 Méthode Scrum
+Structure en sprints de 2 semaines pour ce projet :
+*   **Sprint 1 :** Portail Public & Recherche.
+
+<p align="center">
+  <img src="./assets/scrum.jpg" alt="Méthode Scrum" width="600">
+</p>
+
+#### 🔍 Recherche & Inspiration
+Analyse de plateformes existantes :
+*   **PropertyFinder**
+*   **Avito Immobilier**
+*   **Leboncoin Immobilier**
+
+**Objectif :** Adopter les meilleures pratiques UX/UI tout en gardant une solution simple et efficace.
+---
+
+### 🎯 Détails du Sprint 1 : Portail Web Public
+Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur acquéreur).
+
+**Fonctionnalités clés :**
+*   **Moteur de Recherche :** Filtrage par prix, localisation et type de bien.
+*   **Galerie de Propriétés :** Affichage optimisé des annonces actives.
+*   **Page de Détails :** Vue immersive avec photos haute résolution et caractéristiques techniques.
+*   **Inquiry System :** Formulaire "Contactez-nous à propos de ce bien".
+
+---
+
+### 🛠️ Travail Réalisé
+**Focus Principal : Développement du Portail Public**
+*   **Implémentation de la Page de Recherche :** Interface dynamique avec filtrage.
+*   **Réalisation de la Page "Property Details" :** Développement complet de la fiche produit intégrant :
+    *   Galerie d'images immersive.
+    *   Grille d'informations techniques (info-grid).
+    *   Composants de contact (contact-card) et Breadcrumb.
+
+#### 🧪 Lab
+*   **Laravel 12 (PHP 8.3+) :** Framework backend pour sa solidité et sa gestion des Policies.
+*   **Vite & Tailwind CSS :** Pour des styles ultra-rapides et un design utility-first.
+*   **Preline UI :** Composants interactifs (modals, dropdowns) pour une UI cohérente.
+
+#### 📐 Maquettes et Tests Utilisateurs
+*   **Maquette clé :** Page `Property_details` avec UX moderne.
+*   **Outils :** Figma / Tailwind CSS, Lucide Icons.
+
+<p align="center">
+  <img src="./assets/maquette_property_details.png" alt="Maquette RealEstate Pro" width="1000">
+  <br>
+  <em>Maquette de la Page Détails des Propriétés</em>
+</p>
+
+---
+
+### 🔎 Fonctionnalités de la Page Articles (Annonces)
+Le flux utilisateur suit le diagramme de cas d'utilisation conçu pour ce sprint :
+*   **Acteurs :** Visiteur / Public.
+*   **Flux :** Recherche → Sélection → Consultation des caractéristiques → Contact.
+
+<p align="center">
+  <img src="./assets/use_case_diagram.png" alt="Use Case Real Estate" width="600">
+  <br>
+  <em>Diagramme de Cas d'Utilisation - Sprint 1</em>
+</p>
+
+**Fonctionnalités Détaillées :**
+*   **Recherche Globale :** Filtrage en temps réel.
+*   **Service de Détails :** Récupération dynamique des données (Prix, Surface, Équipements).
+*   **Navigation Intuitive :** Fil d'ariane pour un retour fluide à la liste des biens.
+
+---
+
+### 💻 Réalisation Technique Approfondie
+
+#### 🧱 Back-End et Architecture
+*   **Architecture N-Tiers :** Controllers (Requêtes), Services (Logique), Models (Données).
+*   **Sécurité :** Laravel Policies (RBAC) pour protéger les soumissions d'annonces.
+*   **Stockage :** Gestion des photos via le Filesystem Laravel.
+
+#### 🎨 Front-End
+*   **Blade Templates :** Architecture modulaire avec composants réutilisables.
+*   **Alpine.js :** Interactivité légère pour les galeries et filtres sans la lourdeur d'une SPA.
+
+---
+<div align="center">
+  <p><em>© 2025 - RealEstate Pro - Sprint 1</em></p>
+</div>
