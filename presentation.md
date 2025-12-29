@@ -31,6 +31,8 @@ Le système permet aux futurs acquéreurs de :
 *   Visualiser l'emplacement et les photos haute résolution.
 *   Contacter directement l'agent via WhatsApp ou appel téléphonique.
 
+![Diagramme de Cas d'Utilisation](./assets/use_case_diagram.png)
+
 ---
 
 ## 🎨 Maquette (UI Design)
