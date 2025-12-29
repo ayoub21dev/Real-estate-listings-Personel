@@ -1,0 +1,54 @@
+<!-- Main Image Gallery -->
+<div class="space-y-4"
+    x-data="{ currentImage: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1200' }">
+    <!-- Main Viewer -->
+    <div class="aspect-video w-full overflow-hidden rounded-2xl bg-gray-100 shadow-sm relative group">
+        <img :src="currentImage" alt="Property Main View"
+            class="h-full w-full object-cover transition-all duration-300">
+        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors pointer-events-none">
+        </div>
+        <span
+            class="absolute top-4 left-4 inline-flex items-center rounded-md bg-white/90 px-3 py-1 text-sm font-semibold text-indigo-700 shadow-sm backdrop-blur-md">
+            For Sale
+        </span>
+    </div>
+
+    <!-- Thumbnails (Scrollable on mobile) -->
+    <div class="flex gap-4 overflow-x-auto pb-2 no-scrollbar snap-x">
+        <button
+            @click="currentImage = 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1200'"
+            class="relative flex-none h-24 w-32 snap-start overflow-hidden rounded-lg bg-gray-100 cursor-pointer ring-2 ring-transparent hover:ring-indigo-500 focus:ring-indigo-500 focus:outline-none transition-all"
+            :class="{ 'ring-indigo-600 ring-2': currentImage === 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1200' }">
+            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=300"
+                alt="Exterior" class="h-full w-full object-cover">
+        </button>
+        <button
+            @click="currentImage = 'https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&q=80&w=1200'"
+            class="relative flex-none h-24 w-32 snap-start overflow-hidden rounded-lg bg-gray-100 cursor-pointer ring-2 ring-transparent hover:ring-indigo-500 focus:ring-indigo-500 focus:outline-none transition-all"
+            :class="{ 'ring-indigo-600 ring-2': currentImage === 'https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&q=80&w=1200' }">
+            <img src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=crop&q=80&w=300"
+                alt="Interior Living Room" class="h-full w-full object-cover">
+        </button>
+        <button
+            @click="currentImage = 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1200'"
+            class="relative flex-none h-24 w-32 snap-start overflow-hidden rounded-lg bg-gray-100 cursor-pointer ring-2 ring-transparent hover:ring-indigo-500 focus:ring-indigo-500 focus:outline-none transition-all"
+            :class="{ 'ring-indigo-600 ring-2': currentImage === 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1200' }">
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=300"
+                alt="Kitchen" class="h-full w-full object-cover">
+        </button>
+        <button
+            @click="currentImage = 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1200'"
+            class="relative flex-none h-24 w-32 snap-start overflow-hidden rounded-lg bg-gray-100 cursor-pointer ring-2 ring-transparent hover:ring-indigo-500 focus:ring-indigo-500 focus:outline-none transition-all"
+            :class="{ 'ring-indigo-600 ring-2': currentImage === 'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1200' }">
+            <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=300"
+                alt="Bedroom" class="h-full w-full object-cover">
+        </button>
+        <button
+            @click="currentImage = 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=1200'"
+            class="relative flex-none h-24 w-32 snap-start overflow-hidden rounded-lg bg-gray-100 cursor-pointer ring-2 ring-transparent hover:ring-indigo-500 focus:ring-indigo-500 focus:outline-none transition-all"
+            :class="{ 'ring-indigo-600 ring-2': currentImage === 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=1200' }">
+            <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&q=80&w=300"
+                alt="Pool Area" class="h-full w-full object-cover">
+        </button>
+    </div>
+</div>
