@@ -8,7 +8,7 @@
 
 ---
 
-### 📖 Introduction et Contexte Général
+###  Introduction et Contexte Général
 Le projet **RealEstate Pro** est une plateforme web moderne conçue pour la gestion professionnelle d'annonces immobilières. Elle permet de centraliser les offres, d'assurer la qualité des données et de faciliter la mise en relation entre agents et acquéreurs.
 
 **La problématique :**
@@ -19,7 +19,7 @@ Un système robuste avec un workflow d'approbation administrateur, une recherche
 
 ---
 
-### 🔍 Analyse des Besoins
+### Analyse des Besoins
 1.  **Gestion de Qualité :** Toutes les annonces doivent être approuvées par un admin avant publication.
 2.  **Accessibilité Publique :** Recherche avancée (Prix, Ville, Type de bien, Chambres).
 3.  **Conversion client :** Formulaires de contact directs liés aux propriétés spécifiques.
@@ -27,9 +27,9 @@ Un système robuste avec un workflow d'approbation administrateur, une recherche
 
 ---
 
-### ⚙️ Méthodologies Employées
+###  Méthodologies Employées
 
-#### 🏃 Méthode Scrum
+####  Méthode Scrum
 Structure en sprints de 2 semaines pour ce projet :
 *   **Sprint 1 :** Portail Public & Recherche.
 
@@ -37,7 +37,7 @@ Structure en sprints de 2 semaines pour ce projet :
   <img src="./assets/scrum.jpg" alt="Méthode Scrum" width="600">
 </p>
 
-#### 🔍 Recherche & Inspiration
+#### Méthode  Recherche & Inspiration
 Analyse de plateformes existantes :
 *   **PropertyFinder**
 *   **Avito Immobilier**
@@ -46,7 +46,7 @@ Analyse de plateformes existantes :
 **Objectif :** Adopter les meilleures pratiques UX/UI tout en gardant une solution simple et efficace.
 ---
 
-### 🎯 Détails du Sprint 1 : Portail Web Public
+### Détails du Sprint 1 : Portail Web Public
 Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur acquéreur).
 
 **Fonctionnalités clés :**
@@ -57,17 +57,17 @@ Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur a
 
 ---
 
-### 🛠️ Travail Réalisé
+###  Travail Réalisé
 **Focus Principal : Développement du Portail Public**
 *   **Réalisation de la Page "Property Details" :** Développement complet de la fiche produit intégrant :
     *   Galerie d'images immersive.
     *   Grille d'informations techniques (info-grid).
     *   Composants de contact (contact-card) et Breadcrumb.
 
-#### 🧪 Lab
+####   Lab
 *   **Laravel Deployment** Framework backend pour sa solidité et sa gestion des Policies.
 
-#### 📐 Maquettes et Tests Utilisateurs
+####   Maquettes et Tests Utilisateurs
 *   **Maquette clé :** Page `Property_details` avec UX moderne.
 *   **Outils :** Tailwind CSS
 
@@ -79,10 +79,9 @@ Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur a
 
 ---
 
-### 🔎 Fonctionnalités de la Page Articles (Annonces)
+###  Fonctionnalités de la Page Détails
 Le flux utilisateur suit le diagramme de cas d'utilisation conçu pour ce sprint :
 *   **Acteurs :** Visiteur / Public.
-*   **Flux :** Recherche → Sélection → Consultation des caractéristiques → Contact.
 
 <p align="center">
   <img src="./assets/use_case_diagram.png" alt="Use Case Real Estate" width="600">
@@ -91,8 +90,9 @@ Le flux utilisateur suit le diagramme de cas d'utilisation conçu pour ce sprint
 </p>
 
 **Fonctionnalités Détaillées :**
-*   **Recherche Globale :** Filtrage en temps réel.
-*   **Service de Détails :** Récupération dynamique des données (Prix, Surface, Équipements).
+*   **Galerie d'Images :** Affichage immersif des photos haute résolution.
+*   **Grille d'Informations :** Récupération dynamique des données (Prix, Surface, Équipements).
+*   **Formulaire de Contact :** Contactez le vendeur à propos du bien.
 *   **Navigation Intuitive :** Fil d'ariane pour un retour fluide à la liste des biens.
 
 
