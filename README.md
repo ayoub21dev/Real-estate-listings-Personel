@@ -84,7 +84,7 @@ Le flux utilisateur suit le diagramme de cas d'utilisation conçu pour ce sprint
 *   **Acteurs :** Visiteur / Public.
 
 <p align="center">
-  <img src="./assets/use_case_diagram.png" alt="Use Case Real Estate" width="600">
+  <img src="./assets/UseCase.png" alt="Use Case Real Estate" width="600">
   <br>
   <em>Diagramme de Cas d'Utilisation - Sprint 1</em>
 </p>
