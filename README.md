@@ -77,6 +77,15 @@ Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur a
   <em>Maquette de la Page Détails des Propriétés</em>
 </p>
 
+#### Diagramme de Classes
+Structure de la base de données et relations entre les entités :
+
+<p align="center">
+  <img src="./assets/diagram de class.png" alt="Diagramme de Classes" width="1000">
+  <br>
+  <em>Diagramme de Classes - Architecture Base de Données</em>
+</p>
+
 ---
 
 ###  Fonctionnalités de la Page Détails
