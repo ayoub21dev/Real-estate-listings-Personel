@@ -77,15 +77,6 @@ Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur a
   <em>Maquette de la Page Détails des Propriétés</em>
 </p>
 
-#### Diagramme de Classes
-Structure de la base de données et relations entre les entités :
-
-<p align="center">
-  <img src="./assets/diagramme-de-class.png" alt="Diagramme de Classes" width="1000">
-  <br>
-  <em>Diagramme de Classes - Architecture Base de Données</em>
-</p>
-
 ---
 
 ###  Fonctionnalités de la Page Détails
@@ -98,12 +89,58 @@ Le flux utilisateur suit le diagramme de cas d'utilisation conçu pour ce sprint
   <em>Diagramme de Cas d'Utilisation - Sprint 1</em>
 </p>
 
+#### Diagramme de Classes
+Structure de la base de données et relations entre les entités :
+
+<p align="center">
+  <img src="./assets/diagramme-de-class.png" alt="Diagramme de Classes" width="1000">
+  <br>
+  <em>Diagramme de Classes - Architecture Base de Données</em>
+</p>
+
 **Fonctionnalités Détaillées :**
 *   **Galerie d'Images :** Affichage immersif des photos haute résolution.
 *   **Grille d'Informations :** Récupération dynamique des données (Prix, Surface, Équipements).
 *   **Formulaire de Contact :** Contactez le vendeur à propos du bien.
 *   **Navigation Intuitive :** Fil d'ariane pour un retour fluide à la liste des biens.
 
+---
+
+### Réalisation Technique Approfondie
+
+#### Back-End et Architecture
+**Framework :** Laravel 12.
+
+**Architecture N-Tiers :**
+*   **Controller :** Requêtes HTTP.
+*   **Model :** Base de données.
+
+**Avantages :** Scalabilité, testabilité.
+
+#### Réalisation Technique (suite)
+
+**Front-End**
+*   **Blade :** Templates réutilisables (components, layouts).
+*   **Tailwind CSS :** Développement rapide, responsive.
+*   **Preline UI :** Composants intégrés.
+*   **Lucide :** Icones.
+
+**Gestion de Projet**
+*   **GitHub :** Versionning, branches.
+
+---
+
+### Conclusion
+
+Le Sprint 1 de **RealEstate Pro** a établi les fondations solides d'une plateforme immobilière moderne et performante. Avec une architecture N-Tiers robuste, une interface utilisateur responsive et intuitive, et une gestion efficace du cycle de vie des annonces, le système répond aux besoins identifiés et offre une expérience utilisateur premium.
+
+**Résultats clés :**
+*   ✅ Page "Property Details" complète et fonctionnelle.
+*   ✅ Architecture backend scalable et maintenable.
+*   ✅ Interface frontend moderne avec Tailwind CSS et Preline UI.
+*   ✅ Formulaire de contact intégré pour les demandes d'information.
+
+Les prochains sprints pourront s'appuyer sur cette base solide pour ajouter des fonctionnalités avancées (panel administrateur, système de paiement, notifications) et optimiser les performances.
 
 ---
 <div align="center">
