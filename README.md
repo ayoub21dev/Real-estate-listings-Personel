@@ -93,7 +93,7 @@ Le flux utilisateur suit le diagramme de cas d'utilisation conçu pour ce sprint
 Structure de la base de données et relations entre les entités :
 
 <p align="center">
-  <img src="./assets/diagramme-de-class.png" alt="Diagramme de Classes" width="1000">
+  <img src="./assets/diagramme-de-classes.png" alt="Diagramme de Classes" width="1000">
   <br>
   <em>Diagramme de Classes - Architecture Base de Données</em>
 </p>
