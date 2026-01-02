@@ -39,7 +39,7 @@ Structure en sprints de 2 semaines pour ce projet :
 
 #### Méthode  Recherche & Inspiration
 Analyse de plateformes existantes :
-*   **PropertyFinder**
+*   **housinganywhere**
 *   **Avito Immobilier**
 *   **Leboncoin Immobilier**
 
