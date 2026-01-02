@@ -39,9 +39,12 @@ Structure en sprints de 2 semaines pour ce projet :
 
 #### Méthode  Recherche & Inspiration
 Analyse de plateformes existantes :
-*   **housinganywhere**
-*   **Avito Immobilier**
-*   **Leboncoin Immobilier**
+
+<p align="center">
+  <img src="./assets/MethodeTravail.png" alt="Méthode de Travail" width="1000">
+  <br>
+  <em>Plateformes de Référence - Analyse UX/UI</em>
+</p>
 
 **Objectif :** Adopter les meilleures pratiques UX/UI tout en gardant une solution simple et efficace.
 ---
