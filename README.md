@@ -65,7 +65,7 @@ Ce premier sprint se concentre sur l'expérience du visiteur anonyme (le futur a
     *   Composants de contact (contact-card) et Breadcrumb.
 
 ####   Lab
-*   **Laravel Deployment** Framework backend pour sa solidité et sa gestion des Policies.
+*   **Laravel Deployment**.
 
 ####   Maquettes et Tests Utilisateurs
 *   **Maquette clé :** Page `Property_details` avec UX moderne.
